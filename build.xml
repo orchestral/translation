@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="orchestra/asset" basedir="." default="build">
+<project name="orchestra/translation" basedir="." default="build">
 
     <target name="clean" description="Clean up and create artifact directories">
         <delete dir="${basedir}/build/code-browser"/>
