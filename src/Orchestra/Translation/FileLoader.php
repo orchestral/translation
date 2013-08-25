@@ -12,11 +12,26 @@ class FileLoader extends \Illuminate\Translation\FileLoader {
 	 */
 	protected function loadNamespaced($locale, $group, $namespace)
 	{
-		if ($this->files->exists($full = "{$this->path}/{$locale}/packages/{$namespace}/{$group}.php"))
+		$items = parent::loadNamespaced($locale, $group, $namespace);
+		$file  = "{$this->path}/{$locale}/packages/{$namespace}/{$group}.php";
+
+		if ($this->files->exists($file))
 		{
-			return $this->files->getRequire($full);
+			$items = $this->mergeEnvironment($items, $file);
 		}
 
-		return parent::loadNamespaced($locale, $group, $namespace);
+		return $items;
+	}
+
+	/**
+	 * Merge the items in the given file into the items.
+	 *
+	 * @param  array   $items
+	 * @param  string  $file
+	 * @return array
+	 */
+	protected function mergeEnvironment(array $items, $file)
+	{
+		return array_replace_recursive($items, $this->files->getRequire($file));
 	}
 }
