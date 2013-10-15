@@ -3,12 +3,7 @@
 class FileLoader extends \Illuminate\Translation\FileLoader {
 
 	/**
-	 * Load a namespaced translation group.
-	 *
-	 * @param  string  $locale
-	 * @param  string  $group
-	 * @param  string  $namespace
-	 * @return array
+	 * {@inheritdoc}
 	 */
 	protected function loadNamespaced($locale, $group, $namespace)
 	{
