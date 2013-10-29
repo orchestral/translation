@@ -1,6 +1,6 @@
 {
 	"name": "orchestra/translation",
-	"description": "Orchestra Platform 2 Translation Component",
+	"description": "[Deprecated] Orchestra Platform 2 Translation Component",
 	"license": "MIT",
 	"homepage": "http://orchestraplatform.com/docs/2.0/components/translation/",
 	"keywords": ["orchestra-platform", "orchestral", "laravel", "translation"],

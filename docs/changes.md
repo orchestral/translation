@@ -3,6 +3,12 @@ Translation Change Log
 
 ## Version 2.0
 
+### v2.1.0@dev
+
+* Deprecate this package the functionality been added to Laravel 4.1
+
+## Version 2.0
+
 ### v2.0.1
 
 * Implement [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) coding standard.
