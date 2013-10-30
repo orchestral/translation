@@ -3,6 +3,8 @@ Orchestra Platform Translation Component
 
 `Orchestra\Translation` extends the functionality of Illuminate\Translation to add support for cascading filesystem replacement for Laravel 4 packages.
 
+> This has been deprecated in Laravel 4.1 since the functionality has been included in laravel/framework.
+
 [![Latest Stable Version](https://poser.pugx.org/orchestra/translation/v/stable.png)](https://packagist.org/packages/orchestra/translation) 
 [![Total Downloads](https://poser.pugx.org/orchestra/translation/downloads.png)](https://packagist.org/packages/orchestra/translation) 
 [![Build Status](https://travis-ci.org/orchestral/translation.png?branch=master)](https://travis-ci.org/orchestral/translation) 
@@ -16,7 +18,7 @@ To install through composer, simply put the following in your `composer.json` fi
 ```json
 {
 	"require": {
-		"orchestra/translation": "2.1.*"
+		"orchestra/translation": "2.1.*@dev"
 	}
 }
 ```
