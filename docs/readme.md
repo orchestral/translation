@@ -1,5 +1,6 @@
-Translation Component
-==============
+---
+title: Translation Component
+---
 
 `Orchestra\Translation` is a small improvement over `illuminate/translation` where you can now have `app/lang/en/packages/acme/foobar` without having to touch package source code.
 
@@ -8,22 +9,28 @@ Translation Component
 * [Installation](#installation)
 * [Configuration](#configuration)
 
-## Installation
+## Installation {#installation}
 
 To install through composer, simply put the following in your `composer.json` file:
 
+<<<<<<< HEAD
 ```json
 {
 	"require": {
 		"orchestra/translation": "2.1.*@dev"
+=======
+	{
+		"require": {
+			"orchestra/translation": "2.0.*"
+		}
+>>>>>>> 2.0
 	}
-}
-```
 
-## Configuration
+## Configuration {#configuration}
 
 Next add the service provider in `app/config/app.php`.
 
+<<<<<<< HEAD
 ```php
 'providers' => array(
 
@@ -34,5 +41,15 @@ Next add the service provider in `app/config/app.php`.
 	'Orchestra\Translation\TranslationServiceProvider',
 ),
 ```
+=======
+	'providers' => array(
+
+		// ...
+		# Remove 'Illuminate\Translation\TranslationServiceProvider'
+		# and add 'Orchestra\Translation\TranslationServiceProvider'
+
+		'Orchestra\Translation\TranslationServiceProvider',
+	),
+>>>>>>> 2.0
 
 > `Orchestra\Translation\TranslationServiceProvider` should replace `Illuminate\Translation\TranslationServiceProvider`.
