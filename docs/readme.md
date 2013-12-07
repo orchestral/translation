@@ -13,35 +13,16 @@ title: Translation Component
 
 To install through composer, simply put the following in your `composer.json` file:
 
-<<<<<<< HEAD
-```json
-{
-	"require": {
-		"orchestra/translation": "2.1.*@dev"
-=======
 	{
 		"require": {
-			"orchestra/translation": "2.0.*"
+			"orchestra/translation": "2.1.*@dev"
 		}
->>>>>>> 2.0
 	}
 
 ## Configuration {#configuration}
 
 Next add the service provider in `app/config/app.php`.
 
-<<<<<<< HEAD
-```php
-'providers' => array(
-
-	// ...
-	# Remove 'Illuminate\Translation\TranslationServiceProvider'
-	# and add 'Orchestra\Translation\TranslationServiceProvider'
-
-	'Orchestra\Translation\TranslationServiceProvider',
-),
-```
-=======
 	'providers' => array(
 
 		// ...
@@ -50,6 +31,5 @@ Next add the service provider in `app/config/app.php`.
 
 		'Orchestra\Translation\TranslationServiceProvider',
 	),
->>>>>>> 2.0
 
 > `Orchestra\Translation\TranslationServiceProvider` should replace `Illuminate\Translation\TranslationServiceProvider`.
