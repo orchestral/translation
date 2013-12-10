@@ -1,7 +1,7 @@
 <?php namespace Orchestra\Translation\Tests;
 
 use Mockery as m;
-use Illuminate\Translation\FileLoader;
+use Orchestra\Translation\FileLoader;
 
 class FileLoaderTest extends \PHPUnit_Framework_TestCase
 {
@@ -47,10 +47,14 @@ class FileLoaderTest extends \PHPUnit_Framework_TestCase
             ->shouldReceive('exists')->once()
                 ->with("{$path}/packages/en/orchestra/foundation/title.php")->andReturn(true)
             ->shouldReceive('getRequire')->once()
-                ->with("{$path}/packages/en/orchestra/foundation/title.php")->andReturn(array('install' => 'Installation'));
+                ->with("{$path}/packages/en/orchestra/foundation/title.php")->andReturn(array('install' => 'Installation'))
+            ->shouldReceive('exists')->once()
+                ->with("{$path}/packages/orchestra/foundation/en/title.php")->andReturn(true)
+            ->shouldReceive('getRequire')->once()
+                ->with("{$path}/packages/orchestra/foundation/en/title.php")->andReturn(array('home' => 'Home Page', 'install' => 'Installed'));
 
         $this->assertEquals(
-            array('home' => 'Home', 'install' => 'Installation'),
+            array('home' => 'Home Page', 'install' => 'Installation'),
             $stub->load('en', 'title', 'orchestra/foundation')
         );
     }
