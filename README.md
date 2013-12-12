@@ -16,22 +16,23 @@ To install through composer, simply put the following in your `composer.json` fi
 ```json
 {
 	"require": {
-		"orchestra/translation": "2.1.*@dev"
+		"orchestra/translation": "2.1.*"
 	}
 }
 ```
+
 Next replace `Illuminate\Translation\TranslationServiceProvider` with the following service provider in `app/config/app.php`.
 
 ```php
 'providers' => array(
-	
+
 	// ...
-	
+
 	'Orchestra\Translation\TranslationServiceProvider',
 ),
 ```
 
 ## Resources
 
-* [Documentation](http://orchestraplatform.com/docs/2.1/components/translation)
-* [Change Log](http://orchestraplatform.com/docs/2.1/components/translation/changes#v2.1)
+* [Documentation](http://orchestraplatform.com/docs/latest/components/translation)
+* [Change Log](http://orchestraplatform.com/docs/latest/components/translation/changes#v2-1)
