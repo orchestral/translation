@@ -12,8 +12,8 @@
 		}
 	],
 	"autoload": {
-		"psr-0": {
-			"Orchestra\\Translation" : "src/"
+		"psr-4": {
+			"Orchestra\\Translation\\" : "src/Translation/"
 		}
 	},
 	"require": {
