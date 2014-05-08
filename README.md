@@ -16,7 +16,7 @@ To install through composer, simply put the following in your `composer.json` fi
 ```json
 {
 	"require": {
-		"orchestra/translation": "2.1.*"
+		"orchestra/translation": "2.2.*"
 	}
 }
 ```
@@ -35,4 +35,4 @@ Next replace `Illuminate\Translation\TranslationServiceProvider` with the follow
 ## Resources
 
 * [Documentation](http://orchestraplatform.com/docs/latest/components/translation)
-* [Change Log](http://orchestraplatform.com/docs/latest/components/translation/changes#v2-1)
+* [Change Log](http://orchestraplatform.com/docs/latest/components/translation/changes#v2-2)
