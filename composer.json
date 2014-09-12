@@ -1,6 +1,6 @@
 {
 	"name": "orchestra/translation",
-	"description": "Orchestra Platform 2 Translation Component",
+	"description": "Translation Component for Orchestra Platform",
 	"license": "MIT",
 	"homepage": "http://orchestraplatform.com/docs/latest/components/translation/",
 	"keywords": ["orchestra-platform", "orchestral", "laravel", "translation"],
@@ -21,14 +21,14 @@
 	},
 	"require-dev": {
 		"mockery/mockery": "0.9.*",
-		"illuminate/translation": "4.3.*"
+		"illuminate/translation": "5.0.*"
 	},
 	"suggest": {
 		"laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation"
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-master": "2.3-dev"
+			"dev-master": "3.0-dev"
 		}
 	},
 	"minimum-stability": "dev"
