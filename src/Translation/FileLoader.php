@@ -7,10 +7,10 @@ class FileLoader extends \Illuminate\Translation\FileLoader
      */
     protected function loadNamespaceOverrides(array $lines, $locale, $group, $namespace)
     {
-        $files = array(
+        $files = [
             "{$this->path}/packages/{$namespace}/{$locale}/{$group}.php",
             "{$this->path}/packages/{$locale}/{$namespace}/{$group}.php",
-        );
+        ];
 
         foreach ($files as $file) {
             $lines = $this->mergeEnvironments($lines, $file);
