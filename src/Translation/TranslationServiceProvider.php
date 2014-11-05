@@ -9,7 +9,7 @@ class TranslationServiceProvider extends ServiceProvider
      */
     protected function registerLoader()
     {
-        $this->app->bindShared('translation.loader', function ($app) {
+        $this->app->singleton('translation.loader', function ($app) {
             return new FileLoader($app['files'], $app['path'].'/lang');
         });
     }
