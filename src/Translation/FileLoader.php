@@ -1,6 +1,8 @@
 <?php namespace Orchestra\Translation;
 
-class FileLoader extends \Illuminate\Translation\FileLoader
+use Illuminate\Translation\FileLoader as BaseFileLoader;
+
+class FileLoader extends BaseFileLoader
 {
     /**
      * {@inheritdoc}
