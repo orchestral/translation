@@ -19,7 +19,7 @@ Translation Component extends the functionality of `Illuminate\Translation` to a
 
 ## Version Compatibility
 
-Laravel    | Asset
+Laravel    | Translation
 :----------|:----------
  4.0.x     | 2.0.x
  4.1.x     | 2.1.x
