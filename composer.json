@@ -21,15 +21,15 @@
 	},
 	"require-dev": {
 		"mockery/mockery": "0.9.*",
-		"illuminate/http": "5.0.*",
-		"illuminate/translation": "5.0.*"
+		"illuminate/http": "5.1.*",
+		"illuminate/translation": "5.1.*"
 	},
 	"suggest": {
 		"laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation"
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-master": "3.0-dev"
+			"dev-master": "3.1-dev"
 		}
 	},
 	"minimum-stability": "dev"
