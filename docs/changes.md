@@ -3,6 +3,14 @@ title: Translation Change Log
 
 ---
 
+## Version 3.0 {#v3-0}
+
+### v3.0.0
+
+* Bump to support Laravel 5.
+* Simplify PSR-2 path.
+* Add `Orchestra\Translation\Middleware\BrowserLocale` to setup locale based on browser language.
+
 ## Version 2.2 {#v2-2}
 
 ### v2.2.0 {#v2-2-0}
