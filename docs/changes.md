@@ -7,7 +7,7 @@ title: Translation Change Log
 
 ### v3.0.0
 
-* Bump to support Laravel 5.
+* Update to support Laravel Framework v5.0.
 * Simplify PSR-4 path.
 * Add `Orchestra\Translation\Middleware\BrowserLocale` to setup locale based on browser language.
 
