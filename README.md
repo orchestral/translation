@@ -46,7 +46,7 @@ Above installation can also be simplify by using the following command:
 
 ## Configuration
 
-Next replace `Illuminate\Translation\TranslationServiceProvider` with the following service provider in `app/config/app.php`.
+Next replace `Illuminate\Translation\TranslationServiceProvider` with the following service provider in `config/app.php`.
 
 ```php
 'providers' => array(
