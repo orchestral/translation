@@ -26,6 +26,7 @@ class FileLoader extends BaseFileLoader
      *
      * @param  array   $lines
      * @param  string  $file
+     *
      * @return array
      */
     public function mergeEnvironments(array $lines, $file)

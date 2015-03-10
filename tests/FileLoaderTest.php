@@ -43,18 +43,18 @@ class FileLoaderTest extends \PHPUnit_Framework_TestCase
         $files->shouldReceive('exists')->once()
                 ->with("/var/vendor/orchestra/foundation/src/lang/en/title.php")->andReturn(true)
             ->shouldReceive('getRequire')->once()
-                ->with("/var/vendor/orchestra/foundation/src/lang/en/title.php")->andReturn(array('home' => 'Home', 'install' => 'Install'))
+                ->with("/var/vendor/orchestra/foundation/src/lang/en/title.php")->andReturn(['home' => 'Home', 'install' => 'Install'])
             ->shouldReceive('exists')->once()
                 ->with("{$path}/packages/en/orchestra/foundation/title.php")->andReturn(true)
             ->shouldReceive('getRequire')->once()
-                ->with("{$path}/packages/en/orchestra/foundation/title.php")->andReturn(array('install' => 'Installation'))
+                ->with("{$path}/packages/en/orchestra/foundation/title.php")->andReturn(['install' => 'Installation'])
             ->shouldReceive('exists')->once()
                 ->with("{$path}/packages/orchestra/foundation/en/title.php")->andReturn(true)
             ->shouldReceive('getRequire')->once()
-                ->with("{$path}/packages/orchestra/foundation/en/title.php")->andReturn(array('home' => 'Home Page', 'install' => 'Installed'));
+                ->with("{$path}/packages/orchestra/foundation/en/title.php")->andReturn(['home' => 'Home Page', 'install' => 'Installed']);
 
         $this->assertEquals(
-            array('home' => 'Home Page', 'install' => 'Installation'),
+            ['home' => 'Home Page', 'install' => 'Installation'],
             $stub->load('en', 'title', 'orchestra/foundation')
         );
     }
