@@ -11,7 +11,7 @@ class FileLoader extends BaseFileLoader
     {
         $files = [
             "{$this->path}/packages/{$namespace}/{$locale}/{$group}.php",
-            "{$this->path}/packages/{$locale}/{$namespace}/{$group}.php",
+            "{$this->path}/vendor/{$locale}/{$namespace}/{$group}.php",
         ];
 
         foreach ($files as $file) {
