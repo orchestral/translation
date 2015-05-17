@@ -1,9 +1,9 @@
 {
 	"name": "orchestra/translation",
 	"description": "Translation Component for Orchestra Platform",
-	"license": "MIT",
 	"homepage": "http://orchestraplatform.com/docs/latest/components/translation/",
 	"keywords": ["orchestra-platform", "orchestral", "laravel", "translation"],
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Mior Muhammad Zaki",
@@ -25,11 +25,11 @@
 		"illuminate/translation": "5.0.*"
 	},
 	"suggest": {
-		"laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation"
+		"laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation (~5.0)."
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-master": "3.1-dev"
+			"dev-master": "3.2-dev"
 		}
 	},
 	"minimum-stability": "dev"

@@ -34,7 +34,7 @@ To install through composer, simply put the following in your `composer.json` fi
 ```json
 {
 	"require": {
-		"orchestra/translation": "3.0.*"
+		"orchestra/translation": "~3.0"
 	}
 }
 ```
@@ -43,7 +43,7 @@ To install through composer, simply put the following in your `composer.json` fi
 
 Above installation can also be simplify by using the following command:
 
-    composer require "orchestra/translation=3.0.*"
+    composer require "orchestra/translation=~3.0"
 
 ## Configuration
 
