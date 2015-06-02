@@ -21,11 +21,11 @@
 	},
 	"require-dev": {
 		"mockery/mockery": "0.9.*",
-		"illuminate/http": "5.1.*",
-		"illuminate/translation": "5.1.*"
+		"illuminate/http": "5.2.*",
+		"illuminate/translation": "5.2.*"
 	},
 	"suggest": {
-		"laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation (~5.1)."
+		"laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation (~5.2)."
 	},
 	"extra": {
 		"branch-alias": {
