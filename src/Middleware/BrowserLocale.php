@@ -1,40 +1,16 @@
 <?php namespace Orchestra\Translation\Middleware;
 
-use Closure;
-use Illuminate\Contracts\Routing\Middleware;
-use Illuminate\Contracts\Foundation\Application;
-
-class BrowserLocale implements Middleware
+class BrowserLocale extends Locale
 {
     /**
-     * The application implementation.
+     * Get current locale.
      *
-     * @var \Illuminate\Contracts\Foundation\Application
-     */
-    protected $app;
-
-    /**
-     * Create a new middleware instance.
+     * @param  \Illuminate\Http\Request $request
      *
-     * @param  \Illuminate\Contracts\Foundation\Application  $app
+     * @return string
      */
-    public function __construct(Application $app)
+    protected function getCurrentLocale($request)
     {
-        $this->app = $app;
-    }
-
-    /**
-     * Handle an incoming request.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
-     *
-     * @return mixed
-     */
-    public function handle($request, Closure $next)
-    {
-        $this->app->setLocale($request->getPreferredLanguage());
-
-        return $next($request);
+        return $request->getPreferredLanguage();
     }
 }
