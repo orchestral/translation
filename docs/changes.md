@@ -3,7 +3,11 @@ title: Translation Change Log
 
 ---
 
-## Version 3.1 {#v3-0}
+## Version 3.1 {#v3-1}
+
+### v3.1.1 {#v3-1-1}
+
+* Add abstract `Orchestra\Translation\Middleware\Locale` middleware class.
 
 ### v3.1.0 {#v3-1-0}
 
@@ -11,6 +15,10 @@ title: Translation Change Log
 * Update Laravel path for package language.
 
 ## Version 3.0 {#v3-0}
+
+### v3.0.1 {#v3-0-1}
+
+* Add abstract `Orchestra\Translation\Middleware\Locale` middleware class.
 
 ### v3.0.0 {#v3-0-0}
 
