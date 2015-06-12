@@ -5,7 +5,11 @@ title: Translation Change Log
 
 ## Version 3.0 {#v3-0}
 
-### v3.0.0
+### v3.0.1 {#v3-0-1}
+
+* Add abstract `Orchestra\Translation\Middleware\Locale` middleware class.
+
+### v3.0.0 {#v3-0-0}
 
 * Update to support Laravel Framework v5.0.
 * Simplify PSR-4 path.
