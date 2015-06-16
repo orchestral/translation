@@ -21,8 +21,8 @@
 	},
 	"require-dev": {
 		"mockery/mockery": "0.9.*",
-		"illuminate/http": "5.1.*",
-		"illuminate/translation": "5.1.*"
+		"illuminate/http": "~5.1.0",
+		"illuminate/translation": "~5.1.0"
 	},
 	"suggest": {
 		"laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation (~5.1)."
