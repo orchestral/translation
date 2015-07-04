@@ -1,7 +1,7 @@
 Orchestra Platform Translation Component
 ==============
 
-Translation Component extends the functionality of `Illuminate\Translation` to add support for cascading filesystem replacement for Laravel 4 packages.
+Translation Component extends the functionality of `Illuminate\Translation` to add support for cascading filesystem replacement for Laravel packages.
 
 [![Latest Stable Version](https://img.shields.io/github/release/orchestral/translation.svg?style=flat)](https://packagist.org/packages/orchestra/translation)
 [![Total Downloads](https://img.shields.io/packagist/dt/orchestra/translation.svg?style=flat)](https://packagist.org/packages/orchestra/translation)
@@ -56,7 +56,7 @@ Next replace `Illuminate\Translation\TranslationServiceProvider` with the follow
 
 	// ...
 
-	'Orchestra\Translation\TranslationServiceProvider',
+	Orchestra\Translation\TranslationServiceProvider::class,
 ],
 ```
 
