@@ -1,36 +1,36 @@
 {
-	"name": "orchestra/translation",
-	"description": "Translation Component for Orchestra Platform",
-	"homepage": "http://orchestraplatform.com/docs/latest/components/translation/",
-	"keywords": ["orchestra-platform", "orchestral", "laravel", "translation"],
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Mior Muhammad Zaki",
-			"email": "crynobone@gmail.com",
-			"homepage": "https://github.com/crynobone"
-		}
-	],
-	"autoload": {
-		"psr-4": {
-			"Orchestra\\Translation\\" : "src/"
-		}
-	},
-	"require": {
-		"php": ">=5.5.0"
-	},
-	"require-dev": {
-		"mockery/mockery": "0.9.*",
-		"illuminate/http": "~5.1.0",
-		"illuminate/translation": "~5.1.0"
-	},
-	"suggest": {
-		"laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation (~5.1)."
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "3.2-dev"
-		}
-	},
-	"minimum-stability": "dev"
+    "name": "orchestra/translation",
+    "description": "Translation Component for Orchestra Platform",
+    "homepage": "http://orchestraplatform.com/docs/latest/components/translation/",
+    "keywords": ["orchestra-platform", "orchestral", "laravel", "translation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mior Muhammad Zaki",
+            "email": "crynobone@gmail.com",
+            "homepage": "https://github.com/crynobone"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Orchestra\\Translation\\" : "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "illuminate/http": "~5.1.0",
+        "illuminate/translation": "~5.1.0"
+    },
+    "suggest": {
+        "laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation (~5.1)."
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.2-dev"
+        }
+    },
+    "minimum-stability": "dev"
 }
