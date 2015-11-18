@@ -3,6 +3,14 @@ title: Translation Change Log
 
 ---
 
+## Version 3.2 {#v3-2}
+
+### v3.2.0 {#v3-2-0}
+
+* Update to support Laravel Framework v5.2.
+* Improved performances by reducing call within `Illuminate\Container\Container`.
+* Add abstract `Orchestra\Translation\Middleware\Locale` middleware class.
+
 ## Version 3.1 {#v3-1}
 
 ### v3.1.2 {#v3-1-2}
