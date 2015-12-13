@@ -29,7 +29,7 @@ Laravel    | Translation
  4.2.x     | 2.2.x
  5.0.x     | 3.0.x
  5.1.x     | 3.1.x
- 5.2.x     | 3.2.x@dev
+ 5.2.x     | 3.2.x
  5.3.x     | 3.3.x@dev
 
 ## Installation
@@ -70,4 +70,3 @@ Translation Component make it easier to have redistribute packages language file
 ## Resources
 
 * [Documentation](http://orchestraplatform.com/docs/latest/components/translation)
-* [Change Log](http://orchestraplatform.com/docs/latest/components/translation/changes#v3-0)
