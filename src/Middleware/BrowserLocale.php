@@ -1,4 +1,6 @@
-<?php namespace Orchestra\Translation\Middleware;
+<?php
+
+namespace Orchestra\Translation\Middleware;
 
 class BrowserLocale extends Locale
 {

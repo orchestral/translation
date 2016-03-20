@@ -1,4 +1,6 @@
-<?php namespace Orchestra\Translation;
+<?php
+
+namespace Orchestra\Translation;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Translation\TranslationServiceProvider as ServiceProvider;
