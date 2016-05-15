@@ -25,11 +25,11 @@
         "illuminate/http": "~5.3.0"
     },
     "suggest": {
-        "laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation (~5.3)."
+        "laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation (~5.4)."
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.3-dev"
+            "dev-master": "3.4-dev"
         }
     },
     "minimum-stability": "dev"
