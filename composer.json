@@ -24,9 +24,6 @@
         "illuminate/http": "~5.4.0",
         "mockery/mockery": "^0.9.4"
     },
-    "suggest": {
-        "laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation (~5.4)."
-    },
     "extra": {
         "branch-alias": {
             "dev-master": "3.4-dev"
