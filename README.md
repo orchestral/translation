@@ -6,9 +6,9 @@ Translation Component extends the functionality of `Illuminate\Translation` to a
 [![Latest Stable Version](https://img.shields.io/github/release/orchestral/translation.svg?style=flat-square)](https://packagist.org/packages/orchestra/translation)
 [![Total Downloads](https://img.shields.io/packagist/dt/orchestra/translation.svg?style=flat-square)](https://packagist.org/packages/orchestra/translation)
 [![MIT License](https://img.shields.io/packagist/l/orchestra/translation.svg?style=flat-square)](https://packagist.org/packages/orchestra/translation)
-[![Build Status](https://img.shields.io/travis/orchestral/translation/3.4.svg?style=flat-square)](https://travis-ci.org/orchestral/translation)
-[![Coverage Status](https://img.shields.io/coveralls/orchestral/translation/3.4.svg?style=flat-square)](https://coveralls.io/r/orchestral/translation?branch=3.4)
-[![Scrutinizer Quality Score](https://img.shields.io/scrutinizer/g/orchestral/translation/3.4.svg?style=flat-square)](https://scrutinizer-ci.com/g/orchestral/translation/)
+[![Build Status](https://img.shields.io/travis/orchestral/translation/master.svg?style=flat-square)](https://travis-ci.org/orchestral/translation)
+[![Coverage Status](https://img.shields.io/coveralls/orchestral/translation/master.svg?style=flat-square)](https://coveralls.io/r/orchestral/translation?branch=master)
+[![Scrutinizer Quality Score](https://img.shields.io/scrutinizer/g/orchestral/translation/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/orchestral/translation/)
 
 ## Table of Content
 
@@ -16,7 +16,7 @@ Translation Component extends the functionality of `Illuminate\Translation` to a
 * [Installation](#installation)
 * [Configuration](#configuration)
 * [Usage](#usage)
-* [Change Log](http://orchestraplatform.com/docs/latest/components/translation/changes#v3-4)
+* [Change Log](http://orchestraplatform.com/docs/latest/components/translation/changes#v3-5)
 
 ## Version Compatibility
 
@@ -30,6 +30,7 @@ Laravel    | Translation
  5.2.x     | 3.2.x
  5.3.x     | 3.3.x
  5.4.x     | 3.4.x
+ 5.5.x     | 3.5.x@dev
  
 ## Installation
 
