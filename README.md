@@ -1,8 +1,6 @@
 Orchestra Platform Translation Component
 ==============
 
-[![Join the chat at https://gitter.im/orchestral/platform/components](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/orchestral/platform/components?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Translation Component extends the functionality of `Illuminate\Translation` to add support for cascading filesystem replacement for Laravel packages.
 
 [![Latest Stable Version](https://img.shields.io/github/release/orchestral/translation.svg?style=flat-square)](https://packagist.org/packages/orchestra/translation)
