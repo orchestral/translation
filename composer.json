@@ -22,7 +22,8 @@
     },
     "require-dev": {
         "illuminate/http": "~5.5.0",
-        "mockery/mockery": "^0.9.4"
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "~6.0"
     },
     "extra": {
         "branch-alias": {

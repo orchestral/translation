@@ -1,9 +1,10 @@
 <?php namespace Orchestra\Translation\Tests;
 
 use Mockery as m;
+use PHPUnit\Framework\TestCase;
 use Orchestra\Translation\FileLoader;
 
-class FileLoaderTest extends \PHPUnit_Framework_TestCase
+class FileLoaderTest extends TestCase
 {
     /**
      * Teardown the test environment.
