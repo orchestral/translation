@@ -3,12 +3,11 @@ Orchestra Platform Translation Component
 
 Translation Component extends the functionality of `Illuminate\Translation` to add support for cascading filesystem replacement for Laravel packages.
 
-[![Latest Stable Version](https://img.shields.io/github/release/orchestral/translation.svg?style=flat-square)](https://packagist.org/packages/orchestra/translation)
-[![Total Downloads](https://img.shields.io/packagist/dt/orchestra/translation.svg?style=flat-square)](https://packagist.org/packages/orchestra/translation)
-[![MIT License](https://img.shields.io/packagist/l/orchestra/translation.svg?style=flat-square)](https://packagist.org/packages/orchestra/translation)
-[![Build Status](https://img.shields.io/travis/orchestral/translation/master.svg?style=flat-square)](https://travis-ci.org/orchestral/translation)
-[![Coverage Status](https://img.shields.io/coveralls/orchestral/translation/master.svg?style=flat-square)](https://coveralls.io/r/orchestral/translation?branch=master)
-[![Scrutinizer Quality Score](https://img.shields.io/scrutinizer/g/orchestral/translation/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/orchestral/translation/)
+[![Build Status](https://travis-ci.org/orchestral/translation.svg?branch=master)](https://travis-ci.org/orchestral/translation)
+[![Latest Stable Version](https://poser.pugx.org/orchestra/translation/version)](https://packagist.org/packages/orchestra/translation)
+[![Total Downloads](https://poser.pugx.org/orchestra/translation/downloads)](https://packagist.org/packages/orchestra/translation)
+[![Latest Unstable Version](https://poser.pugx.org/orchestra/translation/v/unstable)](//packagist.org/packages/orchestra/translation)
+[![License](https://poser.pugx.org/orchestra/translation/license)](https://packagist.org/packages/orchestra/translation)
 
 ## Table of Content
 
@@ -16,15 +15,13 @@ Translation Component extends the functionality of `Illuminate\Translation` to a
 * [Installation](#installation)
 * [Configuration](#configuration)
 * [Usage](#usage)
-* [Change Log](http://orchestraplatform.com/docs/latest/components/translation/changes#v3-5)
+* [Changelog](https://github.com/orchestral/translation/releases)
 
 ## Version Compatibility
 
 Laravel    | Translation
 :----------|:----------
- 4.0.x     | 2.0.x
- 4.1.x     | 2.1.x
- 4.2.x     | 2.2.x
+ 4.x.x     | 2.x.x
  5.0.x     | 3.0.x
  5.1.x     | 3.1.x
  5.2.x     | 3.2.x
@@ -38,9 +35,9 @@ To install through composer, simply put the following in your `composer.json` fi
 
 ```json
 {
-	"require": {
-		"orchestra/translation": "~3.0"
-	}
+    "require": {
+        "orchestra/translation": "~3.0"
+    }
 }
 ```
 
@@ -57,16 +54,13 @@ Next replace `Illuminate\Translation\TranslationServiceProvider` with the follow
 ```php
 'providers' => [
 
-	// ...
+    // ...
 
-	Orchestra\Translation\TranslationServiceProvider::class,
+    Orchestra\Translation\TranslationServiceProvider::class,
+
 ],
 ```
 
 ## Usage
 
 Translation Component make it easier to have redistribute packages language files, instead of relying on `resources/lang/en/package/name/title.php` you can now publish it under `resources/lang/vendor/name/en/title.php` making it easier to create repository (and publish it under [Github](https://github.com)) for a single packages or extension to handle multiple languages.
-
-## Resources
-
-* [Documentation](http://orchestraplatform.com/docs/latest/components/translation)
