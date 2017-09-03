@@ -25,7 +25,7 @@ class FileLoaderTest extends TestCase
         $stub  = new FileLoader($files, '/var/app/langs');
 
         $this->assertInstanceOf('Illuminate\Translation\FileLoader', $stub);
-        $this->assertInstanceOf('Illuminate\Translation\LoaderInterface', $stub);
+        $this->assertInstanceOf('Illuminate\Contracts\Translation\Loader', $stub);
     }
 
     /**
