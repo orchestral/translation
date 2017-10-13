@@ -1,4 +1,6 @@
-<?php namespace Orchestra\Translation\Tests;
+<?php
+
+namespace Orchestra\Translation\Tests;
 
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
@@ -22,7 +24,7 @@ class FileLoaderTest extends TestCase
     public function testFileLoaderInstance()
     {
         $files = m::mock('Illuminate\Filesystem\Filesystem');
-        $stub  = new FileLoader($files, '/var/app/langs');
+        $stub = new FileLoader($files, '/var/app/langs');
 
         $this->assertInstanceOf('Illuminate\Translation\FileLoader', $stub);
         $this->assertInstanceOf('Illuminate\Contracts\Translation\Loader', $stub);
@@ -35,16 +37,16 @@ class FileLoaderTest extends TestCase
      */
     public function testLoadNamespacedMethod()
     {
-        $path  = '/var/app/lang';
+        $path = '/var/app/lang';
         $files = m::mock('Illuminate\Filesystem\Filesystem');
-        $stub  = new FileLoader($files, $path);
+        $stub = new FileLoader($files, $path);
 
         $stub->addNamespace('orchestra/foundation', '/var/vendor/orchestra/foundation/src/lang');
 
         $files->shouldReceive('exists')->once()
-                ->with("/var/vendor/orchestra/foundation/src/lang/en/title.php")->andReturn(true)
+                ->with('/var/vendor/orchestra/foundation/src/lang/en/title.php')->andReturn(true)
             ->shouldReceive('getRequire')->once()
-                ->with("/var/vendor/orchestra/foundation/src/lang/en/title.php")->andReturn(['home' => 'Home', 'install' => 'Install'])
+                ->with('/var/vendor/orchestra/foundation/src/lang/en/title.php')->andReturn(['home' => 'Home', 'install' => 'Install'])
             ->shouldReceive('exists')->once()
                 ->with("{$path}/vendor/en/orchestra/foundation/title.php")->andReturn(true)
             ->shouldReceive('getRequire')->once()
