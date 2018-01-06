@@ -26,12 +26,12 @@ class FileLoader extends BaseFileLoader
     /**
      * Merge the items in the given file into the items.
      *
-     * @param  array   $lines
+     * @param  array  $lines
      * @param  string  $file
      *
      * @return array
      */
-    public function mergeEnvironments(array $lines, $file)
+    public function mergeEnvironments(array $lines, string $file): array
     {
         if ($this->files->exists($file)) {
             $lines = array_replace_recursive($lines, $this->files->getRequire($file));

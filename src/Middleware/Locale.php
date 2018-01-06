@@ -46,5 +46,5 @@ abstract class Locale
      *
      * @return string
      */
-    abstract protected function getCurrentLocale($request);
+    abstract protected function getCurrentLocale($request): string;
 }

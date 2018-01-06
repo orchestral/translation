@@ -11,7 +11,7 @@ class BrowserLocale extends Locale
      *
      * @return string
      */
-    protected function getCurrentLocale($request)
+    protected function getCurrentLocale($request): string
     {
         return $request->getPreferredLanguage();
     }
