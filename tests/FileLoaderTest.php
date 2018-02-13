@@ -11,17 +11,13 @@ class FileLoaderTest extends TestCase
     /**
      * Teardown the test environment.
      */
-    public function tearDown()
+    protected function tearDown(): void
     {
         m::close();
     }
 
-    /**
-     * Test Illuminate\Translation\FileLoader.
-     *
-     * @test
-     */
-    public function testFileLoaderInstance()
+    /** @test */
+    public function it_has_the_proper_signatures()
     {
         $files = m::mock('Illuminate\Filesystem\Filesystem');
         $stub = new FileLoader($files, '/var/app/langs');
@@ -30,12 +26,8 @@ class FileLoaderTest extends TestCase
         $this->assertInstanceOf('Illuminate\Contracts\Translation\Loader', $stub);
     }
 
-    /**
-     * Test Illuminate\Translation\FileLoader::loadNamespaced() method.
-     *
-     * @test
-     */
-    public function testLoadNamespacedMethod()
+    /** @test */
+    public function it_can_load_namespaced_translations()
     {
         $path = '/var/app/lang';
         $files = m::mock('Illuminate\Filesystem\Filesystem');
