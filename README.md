@@ -3,11 +3,12 @@ Orchestra Platform Translation Component
 
 Translation Component extends the functionality of `Illuminate\Translation` to add support for cascading filesystem replacement for Laravel packages.
 
-[![Build Status](https://travis-ci.org/orchestral/translation.svg?branch=master)](https://travis-ci.org/orchestral/translation)
+[![Build Status](https://travis-ci.org/orchestral/translation.svg?branch=3.7)](https://travis-ci.org/orchestral/translation)
 [![Latest Stable Version](https://poser.pugx.org/orchestra/translation/version)](https://packagist.org/packages/orchestra/translation)
 [![Total Downloads](https://poser.pugx.org/orchestra/translation/downloads)](https://packagist.org/packages/orchestra/translation)
 [![Latest Unstable Version](https://poser.pugx.org/orchestra/translation/v/unstable)](//packagist.org/packages/orchestra/translation)
 [![License](https://poser.pugx.org/orchestra/translation/license)](https://packagist.org/packages/orchestra/translation)
+[![Coverage Status](https://coveralls.io/repos/github/orchestral/translation/badge.svg?branch=3.7)](https://coveralls.io/github/orchestral/translation?branch=3.7)
 
 ## Table of Content
 
@@ -28,9 +29,9 @@ Laravel    | Translation
  5.3.x     | 3.3.x
  5.4.x     | 3.4.x
  5.5.x     | 3.5.x
- 5.6.x     | 3.6.x@dev
+ 5.6.x     | 3.6.x
  5.7.x     | 3.7.x@dev
- 
+
 ## Installation
 
 To install through composer, simply put the following in your `composer.json` file:
@@ -38,7 +39,7 @@ To install through composer, simply put the following in your `composer.json` fi
 ```json
 {
     "require": {
-        "orchestra/translation": "~3.0"
+        "orchestra/translation": "^3.0"
     }
 }
 ```
@@ -47,7 +48,7 @@ To install through composer, simply put the following in your `composer.json` fi
 
 Above installation can also be simplify by using the following command:
 
-    composer require "orchestra/translation=~3.0"
+    composer require "orchestra/translation=^3.0"
 
 ## Configuration
 
