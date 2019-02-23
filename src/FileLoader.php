@@ -34,7 +34,7 @@ class FileLoader extends BaseFileLoader
     public function mergeEnvironments(array $lines, string $file): array
     {
         if ($this->files->exists($file)) {
-            $lines = array_replace_recursive($lines, $this->files->getRequire($file));
+            $lines = \array_replace_recursive($lines, $this->files->getRequire($file));
         }
 
         return $lines;
