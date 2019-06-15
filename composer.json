@@ -23,11 +23,11 @@
     },
     "require": {
         "php": ">=7.2",
-        "illuminate/translation": "~5.9.0"
+        "illuminate/translation": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
-        "orchestra/testbench": "~3.9.0"
+        "orchestra/testbench": "~3.10.0"
     },
     "extra": {
         "branch-alias": {
