@@ -12,7 +12,7 @@ class TranslationServiceProvider extends ServiceProvider
      */
     protected function registerLoader()
     {
-        $this->app->singleton('translation.loader', function (Application $app) {
+        $this->app->singleton('translation.loader', static function (Application $app) {
             return new FileLoader($app->make('files'), $app['path.lang']);
         });
     }
