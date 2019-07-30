@@ -23,7 +23,7 @@
     },
     "require": {
         "php": ">=7.2",
-        "illuminate/translation": "dev-master"
+        "illuminate/translation": "^6.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
