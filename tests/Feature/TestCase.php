@@ -1,6 +1,6 @@
 <?php
 
-namespace Orchestra\Translation\TestCase\Feature;
+namespace Orchestra\Translation\Tests\Feature;
 
 use Orchestra\Testbench\TestCase as Testbench;
 use Illuminate\Translation\TranslationServiceProvider as BaseServiceProvider;

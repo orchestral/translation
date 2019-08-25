@@ -18,7 +18,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Orchestra\\Translation\\TestCase\\" : "tests/"
+            "Orchestra\\Translation\\Tests\\" : "tests/"
         }
     },
     "require": {

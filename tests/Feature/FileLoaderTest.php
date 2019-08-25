@@ -1,6 +1,6 @@
 <?php
 
-namespace Orchestra\Translation\TestCase\Feature;
+namespace Orchestra\Translation\Tests\Feature;
 
 use Illuminate\Support\Facades\Lang;
 
