@@ -3,12 +3,12 @@ Orchestra Platform Translation Component
 
 Translation Component extends the functionality of `Illuminate\Translation` to add support for cascading filesystem replacement for Laravel packages.
 
-[![Build Status](https://travis-ci.org/orchestral/translation.svg?branch=master)](https://travis-ci.org/orchestral/translation)
+[![Build Status](https://travis-ci.org/orchestral/translation.svg?branch=4.x)](https://travis-ci.org/orchestral/translation)
 [![Latest Stable Version](https://poser.pugx.org/orchestra/translation/version)](https://packagist.org/packages/orchestra/translation)
 [![Total Downloads](https://poser.pugx.org/orchestra/translation/downloads)](https://packagist.org/packages/orchestra/translation)
 [![Latest Unstable Version](https://poser.pugx.org/orchestra/translation/v/unstable)](//packagist.org/packages/orchestra/translation)
 [![License](https://poser.pugx.org/orchestra/translation/license)](https://packagist.org/packages/orchestra/translation)
-[![Coverage Status](https://coveralls.io/repos/github/orchestral/translation/badge.svg?branch=master)](https://coveralls.io/github/orchestral/translation?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/orchestral/translation/badge.svg?branch=4.x)](https://coveralls.io/github/orchestral/translation?branch=4.x)
 
 ## Table of Content
 
