@@ -3,8 +3,8 @@
 namespace Orchestra\Translation\Tests\Unit;
 
 use Mockery as m;
-use PHPUnit\Framework\TestCase;
 use Orchestra\Translation\FileLoader;
+use PHPUnit\Framework\TestCase;
 
 class FileLoaderTest extends TestCase
 {
