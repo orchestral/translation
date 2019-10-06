@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Lang;
 
 class FileLoaderTest extends TestCase
 {
-     /** @test */
+    /** @test */
     public function it_can_load_namespaced_translations()
     {
         $loader = Lang::getLoader();
