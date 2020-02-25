@@ -16,8 +16,6 @@ abstract class Locale
 
     /**
      * Create a new middleware instance.
-     *
-     * @param  \Illuminate\Contracts\Foundation\Application  $app
      */
     public function __construct(Application $app)
     {
@@ -28,7 +26,6 @@ abstract class Locale
      * Handle an incoming request.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
      *
      * @return mixed
      */
@@ -43,8 +40,6 @@ abstract class Locale
      * Get current locale.
      *
      * @param  \Illuminate\Http\Request  $request
-     *
-     * @return string
      */
     abstract protected function getCurrentLocale($request): string;
 }
