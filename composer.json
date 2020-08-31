@@ -23,14 +23,14 @@
     },
     "require": {
         "php": ">=7.3",
-        "illuminate/translation": "^8.0"
+        "illuminate/translation": "dev-master"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.0"
+        "orchestra/testbench": "^7.0"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "6.0-dev"
+            "dev-master": "7.0-dev"
         }
     },
     "config": {
