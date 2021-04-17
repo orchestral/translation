@@ -22,8 +22,8 @@
         }
     },
     "require": {
-        "php": ">=7.3",
-        "illuminate/translation": "dev-master"
+        "php": "^7.4 || ^8.0",
+        "illuminate/translation": "^9.0"
     },
     "require-dev": {
         "orchestra/testbench": "^7.0"
